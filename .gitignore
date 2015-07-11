@@ -1,0 +1,23 @@
+#Ignore all temp/log files
+tmp/
+log/
+*.swp
+
+# Ignore bundler config.
+/.bundle
+
+# Igonore compass sprites
+/app/assets/images/bt-service-*.png
+
+# Ignore the default SQLite database.
+db/*.sqlite3
+/db/*.sqlite3-journal
+config/database.yml
+
+public/system/*
+.sass-cache/*
+.DS_Store
+.rvmrc
+public/assets
+.env*
+!.env.sample
